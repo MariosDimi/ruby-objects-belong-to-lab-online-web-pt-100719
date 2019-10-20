@@ -1,9 +1,10 @@
 class Aurthor
  
-  attr_accessor :name
+  attr_accessor :name, :title
  
-  def initialize(name)
+  def initialize(title, name)
     @name = name
+    @title = title
   end
  
 end
